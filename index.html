@@ -1,0 +1,462 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="__main.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <header>
+      <div class="top-bar"></div>
+      <div class="header__wrapper">
+        <div class="social-links">
+          <h5>БУХГАЛТЕРСКОЕ АГЕНСТВО Панковой Л.А.</h5>
+          <div class="social-links__bottom">
+            <div class="tel">
+              <i>Пн-Пт 10:00 - 18:00</i>
+              <a href="tel:+79111268880">+7(911)-126-88-80</a>
+            </div>
+            <ul>
+              <li>
+                <a href=""
+                  ><img src="./assets/svg/whatsapp.svg" alt="whatsapp"
+                /></a>
+              </li>
+              <li>
+                <a href=""
+                  ><img src="./assets/svg/telegram.svg" alt="telegram"
+                /></a>
+              </li>
+              <li>
+                <a href=""><img src="./assets/svg/vk.svg" alt="vk" /></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <nav class="desktop__nav">
+          <li><a href="">ГЛАВНАЯ</a></li>
+          <li><a href="">ОБО МНЕ</a></li>
+          <li><a href="">УСЛУГИ</a></li>
+          <li><a href="">МОЙ БЛОГ</a></li>
+          <li><a href="">ПОЛЕЗНОЕ</a></li>
+          <li><a href="">КОНТАКТЫ</a></li>
+        </nav>
+        <img
+          class="open-mobile-menu__btn"
+          src="./assets/icons/open-menu.svg"
+          alt=""
+        />
+
+        <nav class="mobile__nav">
+          <div class="mobile-nav__header">
+            <div class="logo">Бухгалтерское агентство Панковой Л.А.</div>
+            <img
+              class="close-mobile-menu__btn"
+              src="./assets/icons/close-menu.svg"
+              alt=""
+            />
+          </div>
+
+          <li>ГЛАВНАЯ</li>
+          <li>ОБО МНЕ</li>
+          <li>УСЛУГИ</li>
+          <li>МОЙ БЛОГ</li>
+          <li>ПОЛЕЗНОЕ</li>
+          <li>КОНТАКТЫ</li>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <section class="slider">
+        <div class="slider__wrapper">
+      
+          <div class="first-slide" >
+            <button class="next-btn">
+              <img src="./assets/icons/arrow.svg" alt="arrow-icon" />
+            </button>
+            <div class="information">
+              <h1 style="opacity: 0;">У наших клиентов нет проблем с налогами 1 слайд</h1>
+              <p style="opacity: 0;">
+                Оптимизируйте налоговые расходы, испольуя наш многолетний опыт
+              </p>
+              <button class="connect-btn" style="opacity: 0;">ЗАПИСАТЬСЯ</button>
+            </div>
+            <img src="./assets/images/noroot.png" alt="main" class="first-slider-photo" style="opacity: 0;"/>
+          </div>
+          <div class="second-slide">
+            <button class="prev-btn">
+              <img src="./assets/icons/arrow.svg" alt="arrow-icon" />
+            </button>
+        
+            <div class="information">
+              <h1 style="opacity: 0;">У наших клиентов нет проблем с налогами 2 слайд</h1>
+              <p style="opacity: 0;">
+                Оптимизируйте налоговые расходы, испольуя наш многолетний опыт
+              </p>
+              <button class="connect-btn" style="opacity: 0;">ЗАПИСАТЬСЯ</button>
+            </div>
+            <img src="./assets/images/second-slide.png" alt="main" class="second-slider-photo" style="opacity: 0;"/>
+          </div>
+        </div>
+      </section>
+
+      <section class="successful-business">
+        <!-- <img
+          class="left__img"
+          src="./assets/images/group3.png"
+          alt="left-image"
+        />
+        <img
+          class="right__img"
+          src="./assets/images/group4.png"
+          alt="right-image"
+        /> -->
+
+        <div class="successful-business__wrapper">
+          <h2 style="scale: 0">Все, что нужно для успешного бизнеса:</h2>
+          <ul style="transform: translate3d(0px, 300px, 0px)">
+            <li><h3>Ведение учета без просчетов</h3></li>
+            <li><h3>Отчетность без требований</h3></li>
+            <li><h3>Налоги без переплат</h3></li>
+          </ul>
+          <div class="successful-business__bottom">
+            <h3 style="transform: translate3d(-100vw, 0px, 0px)">
+              Ваша уверенность в защите интересов бизнеса
+            </h3>
+            <hr style="transform: translate3d(0px, 300px, 0px)" ></hr>
+            <h3 style="transform: translate3d(100vw, 0px, 0px)">
+              Наша компетенция и современный подход
+            </h3>
+          </div>
+        </div>
+      </section>
+
+      <section class="our-services">
+        <h2 style="scale: 0">Наши услуги</h2>
+        <p  style="transform: translate3d(0px, 300px, 0px)">
+          Мы предоставляем экспертные налоговые и консультационные услуги
+          частным лицам и малому бизнесу.
+        </p>
+        <div class="services__top">
+          <div class="service__block" style="transform: translate3d(-100vw, 0px, 0px)">
+            <img src="./assets/svg/1.svg" alt="bar-icon" />
+            <h3>Бухгалтерское сопровождение ИП</h3>
+            <p>
+              Планирование - это ключ к успешному и законному снижению налоговых
+              обязательств.
+            </p>
+          </div>
+          <div class="service__block" style="transform: translate3d(0px, 300px, 0px)">
+            <img src="./assets/svg/2.svg" alt="calculator-icon" />
+            <h3>Бухгалтерское сопровождение ЮЛ</h3>
+            <p>
+              Мы создадим план счетов, для отражения всех ваших финансовых
+              операции.
+            </p>
+          </div>
+          <div class="service__block" style="transform: translate3d(100vw, 0px, 0px)">
+            <img src="./assets/svg/3.svg" alt="case-icon" />
+            <h3>Подготовка и сдача отчетности</h3>
+            <p>
+              Каждый ввод и вывод средств согласуется с записями в вашей
+              бухгалтерском учете.
+            </p>
+          </div>
+        </div>
+        <div class="services__bottom">
+          <div class="service__block" style="scale:0">
+            <img src="./assets/svg/4.svg" alt="case-icon" />
+            <h3>Сверки с бюджетом</h3>
+            <p>
+              Каждый ввод и вывод средств согласуется с записями в вашей
+              бухгалтерском учете.
+            </p>
+          </div>
+          <div class="service__block" style="scale:0">
+            <img src="./assets/svg/5.svg" alt="case-icon" />
+            <h3>Сверки с бюджетом</h3>
+            <p>
+              Каждый ввод и вывод средств согласуется с записями в вашей
+              бухгалтерском учете.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section class="about-us__section">
+        <div class="about-us__wrapper" >
+          <img
+            class="about-us__photo"
+            src="./assets/images/test2.webp"
+            alt="about-us__photo"
+            style="opacity: 0;"
+          />
+
+          <!-- <img
+            class="about-us__photo-small"
+            src="/assets/images/about-us__photo__small.webp"
+            alt="about-us__photo"
+          /> -->
+          <div class="about-us__block" style="scale: 0;">
+            <h2>О нас</h2>
+            <p>
+              Мы стремимся предоставлять профессиональные услуги с наивысшей
+              степенью честности и добросовестности, и стремимся повысить
+              ценность наших налоговых и консультационных услуг.
+            </p>
+            <div class="about-us__numbers">
+              <div class="first-number">
+                <h5>0</h5>
+                <p>Лет опыта</p>
+              </div>
+              <div class="second-number">
+                <h5>0</h5>
+                <p>консультантов</p>
+              </div>
+              <div class="third-number">
+                <h5>0</h5>
+                <p>Клиентов</p>
+              </div>
+            </div>
+            <button>ЗАПИСАТЬСЯ</button>
+          </div>
+        </div>
+      </section>
+
+      <section class="about-us__mobile">
+        <div class="about-us__block">
+          <h2>О нас</h2>
+          <p>
+            Мы стремимся предоставлять профессиональные услуги с наивысшей
+            степенью честности и добросовестности, и стремимся повысить ценность
+            наших налоговых и консультационных услуг.
+          </p>
+          <div class="about-us__numbers">
+            <div class="first-number">
+              <h5>17</h5>
+              <p>Лет опыта</p>
+            </div>
+            <div class="second-number">
+              <h5>23</h5>
+              <p>консультантов</p>
+            </div>
+            <div class="third-number">
+              <h5>99</h5>
+              <p>Клиентов</p>
+            </div>
+          </div>
+          <button>ЗАПИСАТЬСЯ</button>
+        </div>
+      </section>
+
+      <section class="calculator__section">
+        <div class="calculator__wrapper">
+          <div class="calculator__block">
+            <div class="calculator__title">
+              <!-- <img src="./assets/icons/calculator.svg" alt="" /> -->
+              <h2>Калькулятор <br />стоимости услуг</h2>
+              <p>
+                Чтобы рассчитать стоимость ваших услуг заполните поля ниже
+                блаблабла
+              </p>
+            </div>
+
+            <div class="calculator__inputs">
+              <div class="calcualtor__input">
+                <span>Выберите направление бизнеса</span>
+                <select name="Продажи">
+                  <option value="Опция 1">Продажи</option>
+                  <option value="Опция 2">Опция 2</option>
+                  <option value="Опция 3">Опция 3</option>
+                </select>
+              </div>
+              <div class="calcualtor__input">
+                <span>Выберите направление бизнеса</span>
+                <select name="Продажи">
+                  <option value="Опция 1">Продажи</option>
+                  <option value="Опция 2">Опция 2</option>
+                  <option value="Опция 3">Опция 3</option>
+                </select>
+              </div>
+              <div class="calcualtor__input">
+                <span>Выберите направление бизнеса</span>
+                <select name="Продажи">
+                  <option value="Опция 1">Продажи</option>
+                  <option value="Опция 2">Опция 2</option>
+                  <option value="Опция 3">Опция 3</option>
+                </select>
+              </div>
+              <div class="calcualtor__input">
+                <span>Выберите направление бизнеса</span>
+                <select name="Продажи">
+                  <option value="Опция 1">Продажи</option>
+                  <option value="Опция 2">Опция 2</option>
+                  <option value="Опция 3">Опция 3</option>
+                </select>
+              </div>
+            </div>
+          </div>
+
+          <img
+            class="calculator-image"
+            src="./assets/images/calculator.webp"
+            alt="calculator-image"
+          />
+        </div>
+      </section>
+
+      <section class="reviews__title">
+        <h2>Отзывы</h2>
+        <p>
+          Мы предоставляем экспертные налоговые и консультационные услуги
+          частным лицам и малому бизнесу.
+        </p>
+      </section>
+
+      <section class="reviews__section">
+        <div class="reviews__wrapper">
+          <div class="review">
+            <!-- <img src="./assets/icons/quote.svg" alt="" /> -->
+            <div class="review__top">
+              <h6>ИВАН ИВАНОВ</h6>
+              <span>/Предприниматель</span>
+            </div>
+            <p>
+              Экспертиза и знания TaxExpert в области налогового
+              законодательства США и Индии помогли мне ответить на сложные
+            </p>
+          </div>
+          <div class="review">
+            <!-- <img src="./assets/icons/quote.svg" alt="" /> -->
+            <div class="review__top">
+              <h6>ИВАН ИВАНОВ</h6>
+              <span>/Предприниматель</span>
+            </div>
+            <p>
+              Экспертиза и знания TaxExpert в области налогового
+              законодательства США и Индии помогли мне ответить на сложные
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section class="last-news__section">
+        <h2>Последние новости</h2>
+        <div class="last-news__wrapper">
+          <div class="news__block">
+            <img src="./assets/images/news1.png" alt="" />
+            <div class="news__information">
+              <h6>Топ 5 налоговых документов</h6>
+              <div class="news__bottom">
+                <span>ИЮНЬ 20, 2023</span>
+
+                <span>BY <span style="color: #fb9039">Admin</span> </span>
+              </div>
+            </div>
+          </div>
+          <div class="news__block">
+            <img src="./assets/images/news2.png" alt="" />
+            <div class="news__information">
+              <h6>Топ 5 налоговых документов</h6>
+              <div class="news__bottom">
+                <span>ИЮНЬ 20, 2023</span>
+
+                <span>BY <span style="color: #fb9039">Admin</span> </span>
+              </div>
+            </div>
+          </div>
+          <div class="news__block">
+            <img src="./assets/images/news1.png" alt="" />
+            <div class="news__information">
+              <h6>Топ 5 налоговых документов</h6>
+              <div class="news__bottom">
+                <span>ИЮНЬ 20, 2023</span>
+
+                <span>BY <span style="color: #fb9039">Admin</span> </span>
+              </div>
+            </div>
+          </div>
+          <div class="news__block">
+            <img src="./assets/images/news2.png" alt="" />
+            <div class="news__information">
+              <h6>Топ 5 налоговых документов</h6>
+              <div class="news__bottom">
+                <span>ИЮНЬ 20, 2023</span>
+
+                <span>BY <span style="color: #fb9039">Admin</span> </span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <div class="footer__wrapper">
+        <div class="footer__main">
+          <div class="contacts">
+            <div class="contacts__title">
+              <h6>Контакты</h6>
+              <p>
+                "Налогообложение - искусство ошипывать гуся так, чтобы получить
+                максимум перьев с минимумом писка" Жан Батист Кольбер
+              </p>
+            </div>
+            <div class="contacts__content">
+              <a href="tel:+79111268880"
+                ><img
+                  src="./assets/svg/phone.svg"
+                  alt="phone"
+                />+7(911)126-88-80</a
+              >
+              <a href="mailto:lpankova73@mail.ru">
+                <img
+                  src="./assets/svg/mail.svg"
+                  alt="mail"
+                />lpankova73@mail.ru</a
+              >
+              <ul>
+                <li>
+                  <a href=""
+                    ><img src="./assets/svg/whatsapp.svg" alt="wa"
+                  /></a>
+                </li>
+                <li>
+                  <a href=""><img src="./assets/svg/vk.svg" alt="vk" /></a>
+                </li>
+                <li>
+                  <a href=""
+                    ><img src="./assets/svg/telegram.svg" alt="telegram"
+                  /></a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="footer__photo">
+            <img src="./assets/images/cart.png" alt="" srcset="" />
+          </div>
+        </div>
+
+        <div class="bottom-information">
+          <a href="">Политика конфедециальности</a>
+          <span>© Lpankova 2023</span>
+        </div>
+      </div>
+    </footer>
+  </body>
+
+  <script src="./assets/scripts/gsap-public/minified/gsap.min.js"></script>
+  <script src="./assets/scripts/gsap-public/minified/ScrollTrigger.min.js"></script>
+  <script src="./sliderAnimation.js"></script>
+  <script src="index.js"></script>
+  <script src="./animation.js"></script>
+</html>
